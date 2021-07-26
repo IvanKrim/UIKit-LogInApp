@@ -59,13 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				0E1F44D926AEAF630089A702 /* Models */,
-				0E1F44C526AEAE580089A702 /* AppDelegate.swift */,
-				0E1F44C726AEAE580089A702 /* SceneDelegate.swift */,
-				0E1F44C926AEAE580089A702 /* ViewController.swift */,
-				0E1F44CB26AEAE580089A702 /* Main.storyboard */,
-				0E1F44CE26AEAE590089A702 /* Assets.xcassets */,
-				0E1F44D026AEAE590089A702 /* LaunchScreen.storyboard */,
-				0E1F44D326AEAE590089A702 /* Info.plist */,
+				0E1F44DC26AEAFC10089A702 /* ViewControllers */,
+				0E1F44DD26AEAFD00089A702 /* Storyboards */,
+				0E1F44DF26AEAFFD0089A702 /* Supporting */,
+				0E1F44DE26AEAFE10089A702 /* Resources */,
 			);
 			path = "UIKit-LogInApp";
 			sourceTree = "<group>";
@@ -76,6 +73,41 @@
 				0E1F44DA26AEAF630089A702 /* User.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		0E1F44DC26AEAFC10089A702 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F44C926AEAE580089A702 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0E1F44DD26AEAFD00089A702 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F44CB26AEAE580089A702 /* Main.storyboard */,
+				0E1F44D026AEAE590089A702 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0E1F44DE26AEAFE10089A702 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F44CE26AEAE590089A702 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0E1F44DF26AEAFFD0089A702 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F44C526AEAE580089A702 /* AppDelegate.swift */,
+				0E1F44C726AEAE580089A702 /* SceneDelegate.swift */,
+				0E1F44D326AEAE590089A702 /* Info.plist */,
+			);
+			path = Supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,7 +332,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L3S8MU2XD5;
-				INFOPLIST_FILE = "UIKit-LogInApp/Info.plist";
+				INFOPLIST_FILE = "UIKit-LogInApp/supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,7 +351,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L3S8MU2XD5;
-				INFOPLIST_FILE = "UIKit-LogInApp/Info.plist";
+				INFOPLIST_FILE = "UIKit-LogInApp/supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
